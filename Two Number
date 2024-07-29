@@ -1,0 +1,29 @@
+using System;
+
+class Program
+{
+    /// <summary>
+    /// The entry point of the program.
+    /// </summary>
+    /// <remarks>
+    /// This method compares two numbers and prints a message based on their relationship.
+    /// </remarks>
+    /// static void Main()
+    {
+        int number1 = 10;
+        int number2 = 20;
+
+        if (number1 > number2)
+        {
+            Console.WriteLine("Number 1 is greater than Number 2");
+        }
+        else if (number1 < number2)
+        {
+            Console.WriteLine("Number 1 is less than Number 2");
+        }
+        else
+        {
+            Console.WriteLine("Number 1 is equal to Number 2");
+        }
+    }
+}
